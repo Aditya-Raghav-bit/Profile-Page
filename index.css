@@ -25,12 +25,16 @@ h2{
 h3{
     font-size: 36px;
     font-weight: 900;
-    margin: 0;
+    margin-bottom: 0;
+}
+
+P{
+    margin-bottom: 0;
 }
 
 .small-text{
     font-size: 16px;
-    margin-top: 0;
+    margin-top: 5px;
 }
 
 .bold-text{
@@ -76,7 +80,6 @@ section{
     background-color: #252525;
     color: #FFF;
 }
-
 
 
 .pfp{
