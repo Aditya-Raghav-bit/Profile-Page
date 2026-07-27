@@ -5,6 +5,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
         <link href="index.css" rel="stylesheet">
     </head>
     <body>
@@ -26,15 +27,41 @@
 
         <section class="articles inverse">
             <div class="container">
-                <h2>My most recent <span class="accent-text" id="article-size">project</span></h2>
+                <h2>My featured <span class="accent-text" id="article-size">projects</span></h2>
                 <article>
-                    <h3>My web development journey</h3>
-                    <p class="small-text">Written by <span class="name">Aditya</span> on <time datetime="2026-07-25">July 25, 2026</time></p>
-                    <p>I am learning how to turn ideas into useful, responsive websites and applications. Each project helps me practise HTML, CSS, JavaScript, and problem-solving... <a href="#">continue reading</a></p>
-                    <a href="#" class="btn">See all my work</a>
+                    <div class="project-card">
+                        <h3>Password Generator</h3>
+                        <p>Create strong, secure passwords in seconds—so your accounts stay protected without the guesswork.</p>
+                        <a href="https://password-generator-by-adityaraghav.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn">Try Password Generator</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Chrome Extension</h3>
+                        <p>Save useful links as you browse and keep your favourite resources organised for whenever you need them.</p>
+                        <a href="https://github.com/Aditya-Raghav-bit/chrome_extension" target="_blank" rel="noopener noreferrer" class="btn">View Chrome Extension</a>
+                    </div>
                 </article>
             </div>
         </section>
+
+        <footer class="contact-footer">
+            <div class="container">
+                <h2>Let&apos;s <span class="accent-text">connect</span></h2>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/aditya-raghav-b92b3b327/" target="_blank" class="social-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Aditya-Raghav-bit" target="_blank" class="social-link">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="mailto:adityaragahv500@gmail.com" class="social-link">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
 
     </body>
 </html>
