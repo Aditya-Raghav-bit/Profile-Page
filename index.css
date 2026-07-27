@@ -28,6 +28,12 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* Use a darker border only on the light About Me section. */
+.about-me h2,
+.contact-footer h2 {
+    border-color: #252525;
+}
+
 h3 {
     font-size: 36px;
     font-weight: 900;
